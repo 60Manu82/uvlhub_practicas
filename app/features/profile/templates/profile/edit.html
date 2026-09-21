@@ -54,7 +54,7 @@
                         {{ form.name(class="form-control", placeholder="Enter your name",
                         required=true, value=name_value) }}
                         {% for error in form.name.errors %}
-                            <span style="color: red;">{{ error }}</span>
+                            <span style="color: rgba(165, 141, 3, 0.808);">{{ error }}</span>
                             <br>
                         {% endfor %}
                     </div>
